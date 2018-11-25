@@ -16,10 +16,16 @@ mvn -B archetype:generate \
 
 4) bump junit to 4.12
 
-5) added 
+5) added env variable for GIthub authentication
 
 ```
 travis encrypt GITHUB_AUTH_USER=monperrus --add
 travis encrypt GITHUB_AUTH_TOKEN=eab968657466453eab --add
 ```
 
+5) activated https://github.com/monperrus/gmtft
+
+```
+after_script:
+  - curl -s https://www.monperrus.net/martin/gmtft.py.txt | python
+```
