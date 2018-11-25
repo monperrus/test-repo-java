@@ -5,4 +5,4 @@ env:
   - secure: cLR8Ty1hDREUhZZk7VUTvBfCW1D+0OwzhKzEZKIbieJUwILgemp2/ReaMZHoEjXN+VqO3BSxFDSV9nsy/p0OO9WQdWfdGapNFEDSWrVIj35XDkV2AXO3Mp7TOuuSe7ZE7In+kBQFL+JQR1RvmDDuLoF2L7/dnfog69Ko1HVBHM+jCzEcroXQoPolDw1ZPPLJj25nG2SUOWyE/hk9dIZ8fN/J6hkE+TAdvX06cSKSwKb5flrlj2VWCJjmbJy9tD5r7ZD0P2raLhcZzS6q3o+UQrvAIvwnHiq4OC+JXvJuo3AhbvB86lGIvaj0AzawKvG6Hz6RpNETKYBnvOFfpR5cyTwqLUH40QC9rBvYlm30P+W00PivEKgzy6W/lsNn/9bG7COOWpD4qkcDDExh/1/VLUVuX/ZtU2PxBcT7RgAKJZPDd92HvLegaXx2f1RWtrHvHm5RWnOyyVzXLNJdJ7uYcv1Btgfjmtlvs3Rus7gHjykHXG4XeFFsKNXEe05rGztJ1p6uAC8nRtafKXb0sp+fUisp7N2cZkgnub3TSWuKPF0AhctOpZ9GnNvHcvxWC5dZw9BKKxBuFA2Ys7ZUi690aC8vPVNInJyMhNSaINPOv4U+FjTBk5dvmkWxeiIIpTwzuc7Eer8TguYyWCfhWY0aC5G4os/M5qKj0euJ5E7fm1g=
 after_failure:
   - pip install lxml PyGithub
-  - curl -s https://www.monperrus.net/martin/gmtft.py.txt | python3
+  - curl -s https://www.monperrus.net/martin/gmtft.py.txt | python
