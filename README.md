@@ -1,6 +1,6 @@
 
 Test repo in Java
- 
+foo
 1) generated repo with:
 
 ```
