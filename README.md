@@ -1,5 +1,5 @@
 
-Test repo in Java
+foo Test repo in Java
 
 1) generated repo with:
 
