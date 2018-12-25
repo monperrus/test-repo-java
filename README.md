@@ -1,4 +1,4 @@
-foo repo in Java
+repo in Java
 
 1) generated repo with:
 
